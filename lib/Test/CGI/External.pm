@@ -1,4 +1,4 @@
-=head1 Test::CGI::External
+=head1 NAME
 
 Test::CGI::External - run tests on an external CGI program
 
@@ -75,7 +75,7 @@ use Carp;
 use IO::Uncompress::Gunzip qw(gunzip $GunzipError);
 use IPC::Run3;
 
-our $VERSION = '0.00_01';
+our $VERSION = '0.00_02';
 
 =head1 METHODS
 

@@ -25,4 +25,4 @@ requires:
 resources:
   bugtracker: https://github.com/benkasminbullock/test-cgi-external/issues
   repository: git://github.com/benkasminbullock/test-cgi-external.git
-version: 0.00_01
+version: 0.00_02
