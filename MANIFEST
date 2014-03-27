@@ -1,0 +1,11 @@
+Changes
+lib/Test/CGI/External.pm
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+README
+t/Test-CGI-External.t
+t/test.cgi
+t/test.gz
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
