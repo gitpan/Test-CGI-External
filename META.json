@@ -39,7 +39,7 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/benkasminbullock/test-cgi-external/issues"
@@ -50,5 +50,5 @@
          "web" : "https://github.com/benkasminbullock/test-cgi-external"
       }
    },
-   "version" : "0.00_02"
+   "version" : "0.01"
 }
