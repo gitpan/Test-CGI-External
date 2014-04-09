@@ -36,6 +36,7 @@
             "IPC::Run3" : "0",
             "Test::Builder" : "0",
             "Test::More" : "0",
+            "Test::Tester" : "0.109",
             "perl" : "5.006"
          }
       }
@@ -51,5 +52,5 @@
          "web" : "https://github.com/benkasminbullock/test-cgi-external"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
