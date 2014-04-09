@@ -12,7 +12,7 @@
                                          
 
 
-This is the README for Test::CGI::External version 0.01.
+This is the README for Test::CGI::External version 0.02.
 
 Test::CGI::External is a "module" for the Perl computer programming language, a
 library of computer code to install on a computer.  This document contains four
@@ -30,21 +30,26 @@ sections:
 
 1. ABOUT
 
-Test::CGI::External - unknown
+Test::CGI::External - run tests on an external CGI program
 
 Test::CGI::External is a tool for running basic checks of the
 operation of a CGI (common gateway interface) program. It is meant to
-be used for "sanity checks" of CGI program operation without an
-intermediate web server, so it is used before the program is uploaded
-to the web server. For example it can be used to check that the CGI
-program does not contain stray printf statements. If a program with
-stray printf statements is uploaded to the web server and run as a CGI
-program, the browser will show only a 500 Server Error message.
+be used for "sanity checks" of CGI program operation. For example if a
+CGI program prints stuff on standard output before it prints its
+headers, this causes an obscure server error message when running from
+behind a server, so Test::CGI::External is meant for the testing stage
+before the program is put onto a web server. One of the main errors
+this module catches for the author is stray printf statements. If a
+program with stray printf statements is uploaded to the web server and
+run as a CGI program, the browser will show only a 500 Server Error
+message. Another typical mistake is forgetting to make the CGI program
+executable; again, this results in a weird server error.
 
-The tested CGI program can be in any language; Test::CGI::External is
-meant to test external programs which are completely independent of
-itself. Test::CGI::External was originally created to check the
-operation of CGI programs written in the C programming language.
+The tested CGI program can be in any language, not just Perl;
+Test::CGI::External is meant to test external programs which are
+completely independent of itself. Test::CGI::External was originally
+created to check the operation of CGI programs written in the C
+programming language.
 
 Test::CGI::External runs CGI programs as stand-alone programs, under a
 faked CGI-like environment created by manipulating environment
@@ -94,11 +99,11 @@ If you have the App::cpanminus installer, you may prefer
 
     cpanm Test::CGI::External
 
-To install the module from the source file, Test-CGI-External-0.01.tar.gz,
+To install the module from the source file, Test-CGI-External-0.02.tar.gz,
 follow this sequence of commands:
 
-    tar xfz Test-CGI-External-0.01.tar.gz
-    cd Test-CGI-External-0.01
+    tar xfz Test-CGI-External-0.02.tar.gz
+    cd Test-CGI-External-0.02
     perl Makefile.PL
     make
     make install
@@ -123,6 +128,6 @@ repository on github at
 
 -----------------------------------------------------------------------------
 
-This README was written on Tue Apr  1 11:53:50 2014.
+This README was written on Wed Apr  9 14:21:40 2014.
 
 -----------------------------------------------------------------------------

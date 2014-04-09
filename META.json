@@ -1,5 +1,5 @@
 {
-   "abstract" : "unknown",
+   "abstract" : "run tests on an external CGI program",
    "author" : [
       "Ben Bullock <bkb@cpan.org>"
    ],
@@ -34,6 +34,7 @@
          "requires" : {
             "IO::Uncompress::Gunzip" : "0",
             "IPC::Run3" : "0",
+            "Test::Builder" : "0",
             "Test::More" : "0",
             "perl" : "5.006"
          }
@@ -50,5 +51,5 @@
          "web" : "https://github.com/benkasminbullock/test-cgi-external"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

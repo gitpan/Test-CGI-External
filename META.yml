@@ -1,5 +1,5 @@
 ---
-abstract: unknown
+abstract: 'run tests on an external CGI program'
 author:
   - 'Ben Bullock <bkb@cpan.org>'
 build_requires:
@@ -20,9 +20,10 @@ no_index:
 requires:
   IO::Uncompress::Gunzip: '0'
   IPC::Run3: '0'
+  Test::Builder: '0'
   Test::More: '0'
   perl: '5.006'
 resources:
   bugtracker: https://github.com/benkasminbullock/test-cgi-external/issues
   repository: git://github.com/benkasminbullock/test-cgi-external.git
-version: '0.01'
+version: '0.02'
