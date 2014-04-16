@@ -12,7 +12,7 @@
                                          
 
 
-This is the README for Test::CGI::External version 0.03.
+This is the README for Test::CGI::External version 0.04.
 
 Test::CGI::External is a "module" for the Perl computer programming language, a
 library of computer code to install on a computer.  This document contains four
@@ -99,11 +99,11 @@ If you have the App::cpanminus installer, you may prefer
 
     cpanm Test::CGI::External
 
-To install the module from the source file, Test-CGI-External-0.03.tar.gz,
+To install the module from the source file, Test-CGI-External-0.04.tar.gz,
 follow this sequence of commands:
 
-    tar xfz Test-CGI-External-0.03.tar.gz
-    cd Test-CGI-External-0.03
+    tar xfz Test-CGI-External-0.04.tar.gz
+    cd Test-CGI-External-0.04
     perl Makefile.PL
     make
     make install
@@ -128,6 +128,6 @@ repository on github at
 
 -----------------------------------------------------------------------------
 
-This README was written on Wed Apr  9 14:40:31 2014.
+This README was written on Wed Apr 16 10:53:07 2014.
 
 -----------------------------------------------------------------------------
