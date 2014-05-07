@@ -3,28 +3,28 @@ abstract: 'run tests on an external CGI program'
 author:
   - 'Ben Bullock <bkb@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: '0'
+  ExtUtils::MakeMaker: 0
 configure_requires:
-  ExtUtils::MakeMaker: '0'
+  ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.9, CPAN::Meta::Converter version 2.133380'
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: '1.4'
+  version: 1.4
 name: Test-CGI-External
 no_index:
   directory:
     - t
     - inc
 requires:
-  IO::Uncompress::Gunzip: '0'
-  IPC::Run3: '0'
-  Test::Builder: '0'
-  Test::More: '0'
-  Test::Tester: '0.109'
-  perl: '5.006'
+  IO::Uncompress::Gunzip: 0
+  IPC::Run3: 0
+  Test::Builder: 0
+  Test::More: 0
+  Test::Tester: 0.109
+  perl: 5.006
 resources:
   bugtracker: https://github.com/benkasminbullock/test-cgi-external/issues
   repository: git://github.com/benkasminbullock/test-cgi-external.git
-version: '0.04'
+version: 0.05
